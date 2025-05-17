@@ -1,0 +1,2382 @@
+{
+  "platforms": [
+    {
+      "id": "PL001",
+      "nombre": "Netflix",
+      "descripcion": "Servicio de streaming global que ofrece una amplia variedad de películas, series, documentales y contenido original.",
+      "imagen": "https://www.infobae.com/resizer/v2/2YOXQKHBEREMFFBTFX73ALCUAY.jpg?auth=8379202e0b7defe6c4989d5331e6d87cfbb5170cea07bf3b149d8b1a42194b2a&smart=true&width=1200&height=675&quality=85"
+    },
+    {
+      "id": "PL002",
+      "nombre": "Amazon Prime Video",
+      "descripcion": "Plataforma de streaming de Amazon que incluye películas, series y contenido original, además de acceso a otros canales premium.",
+      "imagen": "https://media.revistagq.com/photos/61570a628052a49b36a0342d/master/w_1600%2Cc_limit/amazon-prime-video.jpeg"
+    },
+    {
+      "id": "PL003",
+      "nombre": "Disney+",
+      "descripcion": "Servicio de streaming de The Walt Disney Company con contenido de Disney, Pixar, Marvel, Star Wars y National Geographic.",
+      "imagen": "https://giftcardoferta.com/tienda/wp-content/uploads/2022/07/disneyplus-1200x675-1.jpg"
+    },
+    {
+      "id": "PL004",
+      "nombre": "HBO Max",
+      "descripcion": "Plataforma de streaming que ofrece contenido de HBO, Warner Bros., DC, Cartoon Network y otros estudios.",
+      "imagen": "https://teinvitoalcine.com/download/multimedia.normal.857c9387a69eba51.TG9nbyBwbGF0YWZvcm1hICBNYXhfbm9ybWFsLndlYnA%3D.webp"
+    },
+    {
+      "id": "PL005",
+      "nombre": "Apple TV+",
+      "descripcion": "Servicio de streaming de Apple con contenido original, incluyendo series, películas y documentales exclusivos.",
+      "imagen": "https://www.apple.com/v/apple-tv-plus/ak/images/meta/apple-tv__e7aqjl2rqzau_og.png"
+    },
+    {
+      "id": "PL006",
+      "nombre": "Hulu",
+      "descripcion": "Servicio de streaming estadounidense que ofrece contenido de televisión, películas, series originales y eventos deportivos en vivo.",
+      "imagen": "https://deadline.com/wp-content/uploads/2022/08/hulu-Green-digital-logo-1.jpg?w=1024"
+    },
+    {
+      "id": "PL007",
+      "nombre": "Crunchyroll",
+      "descripcion": "Plataforma de streaming especializada en anime y series asiáticas, con una amplia selección de contenido subtitulado y doblado.",
+      "imagen": "https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000042000/e965921d2670a197008fe9403e50aaa0b150eabcaab4ce8b0c860d75ba4d1ee6"
+    }
+  ],
+  "directors": [
+    {
+      "id": "DI002",
+      "nombre": "Chris Columbus",
+      "descripcion": "Director estadounidense conocido por películas como 'Harry Potter y la piedra filosofal' y 'Harry Potter y la cámara secreta'.",
+      "edad": 66,
+      "ciudad_origen": "Spangler, Pensilvania, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTY2MTYzNzUyNl5BMl5BanBnXkFtZTYwMDI0NzA0._V1_.jpg"
+    },
+    {
+      "id": "DI003",
+      "nombre": "Alfonso Cuarón",
+      "descripcion": "Director mexicano conocido por 'Harry Potter y el prisionero de Azkaban', 'Gravity' y 'Roma'.",
+      "edad": 62,
+      "ciudad_origen": "Ciudad de México, México",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/DisclaimerBFILFF101024_%2888_of_113%29_%2854062275143%29_%28cropped%29.jpg/330px-DisclaimerBFILFF101024_%2888_of_113%29_%2854062275143%29_%28cropped%29.jpg"
+    },
+    {
+      "id": "DI004",
+      "nombre": "Mike Newell",
+      "descripcion": "Director británico conocido por 'Harry Potter y el cáliz de fuego' y 'Cuatro bodas y un funeral'.",
+      "edad": 82,
+      "ciudad_origen": "St. Albans, Hertfordshire, Reino Unido",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTgzNDI1ODc4N15BMl5BanBnXkFtZTYwNjg3NTc1._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "DI005",
+      "nombre": "David Yates",
+      "descripcion": "Director británico conocido por las últimas cuatro películas de la saga de 'Harry Potter' y la serie de películas de 'Animales Fantásticos'.",
+      "edad": 61,
+      "ciudad_origen": "St. Helens, Merseyside, Reino Unido",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1963/10/w1280/fiIZNbwdK07ntpE2wpLRIMuSXEy.jpg"
+    },
+    {
+      "id": "DI006",
+      "nombre": "Francis Ford Coppola",
+      "descripcion": "Director estadounidense conocido por la trilogía de 'El Padrino' y 'Apocalypse Now'.",
+      "edad": 86,
+      "ciudad_origen": "Detroit, Míchigan, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Francis_Ford_Coppola_on_December_8%2C_2024_in_the_White_House_Oval_Office_%28cropped%29.jpg"
+    },
+    {
+      "id": "DI007",
+      "nombre": "Christopher Nolan",
+      "descripcion": "Director británico conocido por la trilogía de 'El Caballero de la Noche', 'Inception' y 'Interstellar'.",
+      "edad": 54,
+      "ciudad_origen": "Londres, Reino Unido",
+      "imagen": "https://es.web.img3.acsta.net/pictures/14/10/30/10/59/215487.jpg"
+    },
+    {
+      "id": "DI008",
+      "nombre": "Denis Villeneuve",
+      "descripcion": "Director canadiense conocido por películas como 'Dune', 'Blade Runner 2049' y 'Arrival'.",
+      "edad": 57,
+      "ciudad_origen": "Trois-Rivières, Quebec, Canadá",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMzU2MDk5MDI2MF5BMl5BanBnXkFtZTcwNDkwMjMzNA@@._V1_.jpg"
+    },
+    {
+      "id": "DI009",
+      "nombre": "Damien Chazelle",
+      "descripcion": "Director estadounidense conocido por películas como 'Whiplash', 'La La Land' y 'First Man'.",
+      "edad": 40,
+      "ciudad_origen": "Providence, Rhode Island, Estados Unidos",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1985/1/w1280/14kRZ3XxNMyBv717YQSXr3wCucy.jpg"
+    },
+    {
+      "id": "DI010",
+      "nombre": "Todd Phillips",
+      "descripcion": "Director estadounidense conocido por películas como 'Joker', 'The Hangover' y 'War Dogs'.",
+      "edad": 54,
+      "ciudad_origen": "Brooklyn, Nueva York, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Todd_Phillips-64847.jpg"
+    },
+    {
+      "id": "DI011",
+      "nombre": "Matt Reeves",
+      "descripcion": "Director estadounidense conocido por películas como 'The Batman', 'Cloverfield' y 'Dawn of the Planet of the Apes'.",
+      "edad": 59,
+      "ciudad_origen": "Rockville Centre, Nueva York, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGM4MDM4ODgtMDljYS00Yzc4LThjZjgtZjNmMzRjNjBjMTU4XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "DI012",
+      "nombre": "David Fincher",
+      "descripcion": "Director estadounidense conocido por películas como 'Fight Club', 'Se7en', 'Gone Girl' y 'The Social Network'.",
+      "edad": 62,
+      "ciudad_origen": "Denver, Colorado, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/d1/TheKillerBFILFF051023_%288_of_22%29_%2853255176376%29_%28cropped2%29.jpg"
+    },
+    {
+      "id": "DI013",
+      "nombre": "Bong Joon-ho",
+      "descripcion": "Director surcoreano conocido por películas como 'Mickey 17', 'Parasite', 'Snowpiercer' y 'Memories of Murder'.",
+      "edad": 55,
+      "ciudad_origen": "Daegu, Corea del Sur",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Bong_Joon-ho_2017.jpg/1200px-Bong_Joon-ho_2017.jpg"
+    },
+    {
+      "id": "DI014",
+      "nombre": "Sean Baker",
+      "descripcion": "Director estadounidense conocido por películas como 'Anora', 'The Florida Project', 'Tangerine' y 'Red Rocket'.",
+      "edad": 53,
+      "ciudad_origen": "Summit, Nueva Jersey, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Sean_Baker_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg"
+    },
+    {
+      "id": "DI015",
+      "nombre": "Vince Gilligan",
+      "descripcion": "Director y guionista estadounidense conocido por crear 'Breaking Bad'.",
+      "edad": 58,
+      "ciudad_origen": "Richmond, Virginia, Estados Unidos",
+      "imagen": "https://static.wikia.nocookie.net/breakingbad/images/2/25/Vince_Gilligan.jpg/revision/latest?cb=20130831162927&path-prefix=es"
+    },
+    {
+      "id": "DI016",
+      "nombre": "Peter Gould",
+      "descripcion": "Director y guionista estadounidense conocido por su trabajo en 'Better Call Saul'.",
+      "edad": 61,
+      "ciudad_origen": "Nueva York, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDgyNzQwMjgyMl5BMl5BanBnXkFtZTcwNTkxMzA1OA@@._V1_.jpg"
+    },
+    {
+      "id": "DI017",
+      "nombre": "David Benioff",
+      "descripcion": "Director y guionista estadounidense conocido por su trabajo en 'Game of Thrones'.",
+      "edad": 54,
+      "ciudad_origen": "Nueva York, Estados Unidos",
+      "imagen": "https://pics.filmaffinity.com/003918345902932-nm_200.jpg"
+    },
+    {
+      "id": "DI018",
+      "nombre": "Miguel Sapochnik",
+      "descripcion": "Director británico conocido por su trabajo en 'House of the Dragon'.",
+      "edad": 50,
+      "ciudad_origen": "Londres, Reino Unido",
+      "imagen": "https://ntvb.tmsimg.com/assets/assets/557509_v9_bc.jpg"
+    },
+    {
+      "id": "DI019",
+      "nombre": "Matt Duffer",
+      "descripcion": "Creador y director estadounidense, conocido por co-crear 'Stranger Things'.",
+      "edad": 39,
+      "ciudad_origen": "Durham, Carolina del Norte, Estados Unidos",
+      "imagen": "https://ntvb.tmsimg.com/assets/assets/902939_v9_bc.jpg"
+    },
+    {
+      "id": "DI020",
+      "nombre": "Eric Kripke",
+      "descripcion": "Director y guionista estadounidense, creador de 'The Boys'.",
+      "edad": 51,
+      "ciudad_origen": "Toledo, Ohio, Estados Unidos",
+      "imagen": "https://cinetown.s3.ap-south-1.amazonaws.com/people/profile_img/1701426968.jpeg"
+    },
+    {
+      "id": "DI021",
+      "nombre": "Jeff Allen",
+      "descripcion": "Director estadounidense conocido por su trabajo en la serie animada 'Invincible'.",
+      "edad": 55,
+      "ciudad_origen": "Los Ángeles, California, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDE0MDAwMDItYmMyYS00MWVjLTgyYWUtZDNkZjNlZTU1MTYxXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "DI022",
+      "nombre": "Alik Sakharov",
+      "descripcion": "Director y cinematógrafo estadounidense de origen ruso, conocido por su trabajo en 'The Witcher'.",
+      "edad": 62,
+      "ciudad_origen": "Tashkent, Uzbekistán",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGE0YWUzYjEtNTRlNy00YjUxLWJhMWItMGI4MTA2NDEyY2VkXkEyXkFqcGc@._V1_CR495,138,3032,4548_.jpg"
+    },
+    {
+      "id": "DI023",
+      "nombre": "Steven Knight",
+      "descripcion": "Director, guionista y productor británico, creador de 'Peaky Blinders'.",
+      "edad": 64,
+      "ciudad_origen": "Birmingham, Reino Unido",
+      "imagen": "https://ntvb.tmsimg.com/assets/assets/299593_v9_bc.jpg"
+    },
+    {
+      "id": "DI024",
+      "nombre": "Jon Favreau",
+      "descripcion": "Director, actor y productor estadounidense, conocido por crear 'The Mandalorian'.",
+      "edad": 58,
+      "ciudad_origen": "Nueva York, Estados Unidos",
+      "imagen": "https://cdn.britannica.com/21/218721-050-3DADCC1B/American-actor-director-Jon-Favreau-2020.jpg"
+    },
+    {
+      "id": "DI025",
+      "nombre": "Cary Joji Fukunaga",
+      "descripcion": "Director estadounidense conocido por dirigir la primera temporada de 'True Detective'.",
+      "edad": 46,
+      "ciudad_origen": "Oakland, California, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTU4MTY2ODExMV5BMl5BanBnXkFtZTcwMzEwNzY2NA@@._V1_.jpg"
+    },
+    {
+      "id": "DI026",
+      "nombre": "Pascal Charrue",
+      "descripcion": "Director francés conocido por su trabajo en la serie animada 'Arcane'.",
+      "edad": 45,
+      "ciudad_origen": "París, Francia",
+      "imagen": "https://pics.filmaffinity.com/220803058660372-nm_200.jpg"
+    },
+    {
+      "id": "DI027",
+      "nombre": "Tetsurō Araki",
+      "descripcion": "Director japonés conocido por su trabajo en la serie animada 'Attack on Titan'.",
+      "edad": 47,
+      "ciudad_origen": "Sayama, Saitama, Japón",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1976/11/w1280/oEdiTbFLMJDSGUSDe8a48VbueGJ.jpg"
+    },
+    {
+      "id": "DI028",
+      "nombre": "Sunghoo Park",
+      "descripcion": "Director surcoreano conocido por su trabajo en la serie animada 'Jujutsu Kaisen'.",
+      "edad": 41,
+      "ciudad_origen": "Seúl, Corea del Sur",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTQxM2JjMWMtZDIzOS00MWI3LTg2ZWQtOGVhMjAyMDA3MWE0XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "DI029",
+      "nombre": "Kenji Nagasaki",
+      "descripcion": "Director japonés conocido por su trabajo en la serie animada 'My Hero Academia'.",
+      "edad": 48,
+      "ciudad_origen": "Tokio, Japón",
+      "imagen": "https://animationisfilm.com/wp-content/uploads/2021/09/MHA-Director-Headshot-.jpg"
+    },
+    {
+      "id": "DI030",
+      "nombre": "Shūhei Yabuta",
+      "descripcion": "Director japonés conocido por su trabajo en la serie animada 'Vinland Saga'.",
+      "edad": 44,
+      "ciudad_origen": "Osaka, Japón",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/2023/3/w300/iA6289lz4GxEjMZXSHhQssvlLtx.jpg"
+    },
+    {
+      "id": "DI031",
+      "nombre": "Hideaki Anno",
+      "descripcion": "Director japonés conocido por crear y dirigir 'Neon Genesis Evangelion'.",
+      "edad": 64,
+      "ciudad_origen": "Ube, Yamaguchi, Japón",
+      "imagen": "https://pm1.aminoapps.com/6937/d3a8d777095b56729a2587a49027c348d372d74cr1-1067-1600v2_uhq.jpg"
+    },
+    {
+      "id": "DI032",
+      "nombre": "Sam Esmail",
+      "descripcion": "Director estadounidense conocido por crear 'Mr. Robot'.",
+      "edad": 47,
+      "ciudad_origen": "Hoboken, Nueva Jersey, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODExMjEwNjA3MV5BMl5BanBnXkFtZTgwOTM2NDczNzE@._V1_.jpg"
+    },
+    {
+      "id": "DI033",
+      "nombre": "Christopher Storer",
+      "descripcion": "Director estadounidense conocido por su trabajo en 'The Bear'.",
+      "edad": 39,
+      "ciudad_origen": "Chicago, Illinois, Estados Unidos",
+      "imagen": "https://static.wikia.nocookie.net/the-bear/images/1/1d/ChristopherStorer.jpg/revision/latest?cb=20230120084046"
+    },
+    {
+      "id": "DI034",
+      "nombre": "Rafa Montesinos",
+      "descripcion": "Director español conocido por su trabajo en 'El Jardinero'.",
+      "edad": 50,
+      "ciudad_origen": "Madrid, España",
+      "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fname.php%3Fname-id%3D313464955&psig=AOvVaw18u7JCGNnymeKx-ZfdXiLM&ust=1747347979945000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiC-M-ApI0DFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "DI035",
+      "nombre": "Greg Berlanti",
+      "descripcion": "Director y productor estadounidense conocido por su trabajo en 'You'.",
+      "edad": 51,
+      "ciudad_origen": "Rye, Nueva York, Estados Unidos",
+      "imagen": "https://static.wikia.nocookie.net/arrow/images/8/80/Greg_Berlanti.png/revision/latest?cb=20141016181118&path-prefix=es"
+    },
+    {
+      "id": "DI036",
+      "nombre": "Charlie Brooker",
+      "descripcion": "Director británico conocido por crear 'Black Mirror'.",
+      "edad": 52,
+      "ciudad_origen": "Reading, Reino Unido",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMzc1ODgyMTMyMV5BMl5BanBnXkFtZTcwNjY1NjcxNw@@._V1_.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": "AC001",
+      "nombre": "Daniel Radcliffe",
+      "descripcion": "Actor británico conocido por interpretar a Harry Potter en la saga de 'Harry Potter'.",
+      "edad": 33,
+      "ciudad_origen": "Londres, Reino Unido",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/DanielRadcliffe.jpg/1200px-DanielRadcliffe.jpg"
+    },
+    {
+      "id": "AC002",
+      "nombre": "Rupert Grint",
+      "descripcion": "Actor británico conocido por interpretar a Ron Weasley en la saga de 'Harry Potter'.",
+      "edad": 34,
+      "ciudad_origen": "Harlow, Essex, Reino Unido",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+    },
+    {
+      "id": "AC003",
+      "nombre": "Emma Watson",
+      "descripcion": "Actriz británica conocida por interpretar a Hermione Granger en la saga de 'Harry Potter'.",
+      "edad": 33,
+      "ciudad_origen": "París, Francia",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+    },
+    {
+      "id": "AC004",
+      "nombre": "Gary Oldman",
+      "descripcion": "Actor británico conocido por interpretar a Sirius Black en la saga de 'Harry Potter'.",
+      "edad": 65,
+      "ciudad_origen": "Londres, Reino Unido",
+      "imagen": "https://es.web.img2.acsta.net/pictures/16/03/18/16/03/398105.jpg"
+    },
+    {
+      "id": "AC005",
+      "nombre": "Michael Gambon",
+      "descripcion": "Actor británico conocido por interpretar a Albus Dumbledore en las películas de 'Harry Potter' desde la tercera entrega en adelante.",
+      "edad": 82,
+      "ciudad_origen": "Dublín, Irlanda",
+      "imagen": "https://static.wikia.nocookie.net/esharrypotter/images/4/45/Michael_Gambon.jpg/revision/latest?cb=20120217213409"
+    },
+    {
+      "id": "AC006",
+      "nombre": "Ralph Fiennes",
+      "descripcion": "Actor británico conocido por interpretar a Lord Voldemort en la saga de 'Harry Potter'.",
+      "edad": 62,
+      "ciudad_origen": "Ipswich, Suffolk, Reino Unido",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ralph_Fiennes_2024.jpg"
+    },
+    {
+      "id": "AC007",
+      "nombre": "Marlon Brando",
+      "descripcion": "Actor estadounidense considerado uno de los mejores actores de todos los tiempos, conocido por su papel como Vito Corleone en 'El Padrino'.",
+      "edad": 80,
+      "ciudad_origen": "Omaha, Nebraska, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/53/Marlon_Brando_publicity_for_One-Eyed_Jacks.png"
+    },
+    {
+      "id": "AC008",
+      "nombre": "Al Pacino",
+      "descripcion": "Actor estadounidense conocido por interpretar a Michael Corleone en la trilogía de 'El Padrino' y Tony Montana en 'Scarface'.",
+      "edad": 85,
+      "ciudad_origen": "Nueva York, Nueva York, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Al_Pacino.jpg/250px-Al_Pacino.jpg"
+    },
+    {
+      "id": "AC009",
+      "nombre": "Robert De Niro",
+      "descripcion": "Actor estadounidense conocido por sus papeles en 'El Padrino II', 'Taxi Driver' y 'Goodfellas'.",
+      "edad": 81,
+      "ciudad_origen": "Nueva York, Nueva York, Estados Unidos",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1943/8/w1280/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
+    },
+    {
+      "id": "AC010",
+      "nombre": "Diane Keaton",
+      "descripcion": "Actriz estadounidense conocida por su papel como Kay Adams en la trilogía de 'El Padrino' y su trabajo en comedias románticas como 'Annie Hall'.",
+      "edad": 79,
+      "ciudad_origen": "Los Ángeles, California, Estados Unidos",
+      "imagen": "https://cdn.britannica.com/90/205790-050-2C5E5478/Diane-Keaton-2007.jpg"
+    },
+    {
+      "id": "AC011",
+      "nombre": "Christian Bale",
+      "descripcion": "Actor británico conocido por interpretar a Bruce Wayne/Batman en la trilogía de 'El Caballero de la Noche'.",
+      "edad": 51,
+      "ciudad_origen": "Haverfordwest, Gales, Reino Unido",
+      "imagen": "https://cdn.shopify.com/s/files/1/1475/0992/files/BRuce_Wayne_haircut_600x600.jpg?v=1641393766"
+    },
+    {
+      "id": "AC012",
+      "nombre": "Michael Caine",
+      "descripcion": "Actor británico conocido por su papel como Alfred Pennyworth en la trilogía de 'El Caballero de la Noche'.",
+      "edad": 90,
+      "ciudad_origen": "Londres, Reino Unido",
+      "imagen": "https://media.themoviedb.org/t/p/w500/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg"
+    },
+    {
+      "id": "AC013",
+      "nombre": "Heath Ledger",
+      "descripcion": "Actor australiano conocido por su interpretación icónica como el Joker en 'El Caballero de la Noche'.",
+      "edad": 28,
+      "ciudad_origen": "Perth, Australia",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "AC014",
+      "nombre": "Tom Hardy",
+      "descripcion": "Actor británico conocido por su papel como Bane en 'El Caballero de la Noche Asciende'.",
+      "edad": 47,
+      "ciudad_origen": "Hammersmith, Londres, Reino Unido",
+      "imagen": "https://hips.hearstapps.com/hmg-prod/images/tom-hardy-attends-the-sentebale-audi-concert-at-hampton-news-photo-1585580334.jpg?crop=0.605xw:1.00xh;0.120xw,0&resize=1200:*"
+    },
+    {
+      "id": "AC015",
+      "nombre": "Timothée Chalamet",
+      "descripcion": "Actor estadounidense conocido por su papel como Paul Atreides en 'Dune' y por su actuación en 'Call Me by Your Name'.",
+      "edad": 29,
+      "ciudad_origen": "Nueva York, Nueva York, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZTIyZWY4ZjktOGJiZi00NGFkLTllMjctZjJjMmNiMjIxOTY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "AC016",
+      "nombre": "Zendaya",
+      "descripcion": "Actriz estadounidense conocida por su papel como Chani en 'Dune' y como MJ en las películas de 'Spider-Man' del MCU.",
+      "edad": 28,
+      "ciudad_origen": "Oakland, California, Estados Unidos",
+      "imagen": "https://es.web.img2.acsta.net/c_310_420/pictures/19/12/26/23/19/0993801.jpg"
+    },
+    {
+      "id": "AC017",
+      "nombre": "Matthew McConaughey",
+      "descripcion": "Actor estadounidense conocido por su papel como Cooper en 'Interstellar' y por películas como 'Dallas Buyers Club' y 'True Detective'.",
+      "edad": 55,
+      "ciudad_origen": "Uvalde, Texas, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTg0MDc3ODUwOV5BMl5BanBnXkFtZTcwMTk2NjY4Nw@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "AC018",
+      "nombre": "Anne Hathaway",
+      "descripcion": "Actriz estadounidense conocida por su papel como Amelia Brand en 'Interstellar' y por películas como 'The Devil Wears Prada' y 'Les Misérables'.",
+      "edad": 42,
+      "ciudad_origen": "Brooklyn, Nueva York, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Anne_Hathaway_2014_%28cropped%29.jpg/250px-Anne_Hathaway_2014_%28cropped%29.jpg"
+    },
+    {
+      "id": "AC019",
+      "nombre": "Miles Teller",
+      "descripcion": "Actor estadounidense conocido por su papel como Andrew Neiman en 'Whiplash' y por películas como 'Top Gun: Maverick' y 'Fantastic Four'.",
+      "edad": 38,
+      "ciudad_origen": "Downingtown, Pensilvania, Estados Unidos",
+      "imagen": "https://cdn-images.dzcdn.net/images/artist/120c3fe12a07412eb0300387edc0da34/1900x1900-000000-80-0-0.jpg"
+    },
+    {
+      "id": "AC020",
+      "nombre": "J.K. Simmons",
+      "descripcion": "Actor estadounidense conocido por su papel como Terence Fletcher en 'Whiplash' y por su interpretación de J. Jonah Jameson en las películas de 'Spider-Man'.",
+      "edad": 70,
+      "ciudad_origen": "Grosse Pointe, Míchigan, Estados Unidos",
+      "imagen": "https://es.web.img2.acsta.net/c_310_420/pictures/16/01/05/15/02/175725.jpg"
+    },
+    {
+      "id": "AC021",
+      "nombre": "Cillian Murphy",
+      "descripcion": "Actor irlandés conocido por su papel como J. Robert Oppenheimer en 'Oppenheimer' y por su interpretación de Thomas Shelby en 'Peaky Blinders'.",
+      "edad": 49,
+      "ciudad_origen": "Douglas, Cork, Irlanda",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Cillian_Murphy-2014.jpg/250px-Cillian_Murphy-2014.jpg"
+    },
+    {
+      "id": "AC022",
+      "nombre": "Emily Blunt",
+      "descripcion": "Actriz británica conocida por su papel en 'Oppenheimer' y por películas como 'A Quiet Place' y 'The Devil Wears Prada'.",
+      "edad": 42,
+      "ciudad_origen": "Londres, Reino Unido",
+      "imagen": "https://cdn.britannica.com/16/189516-050-E05AC3FA/Emily-Blunt-2013.jpg"
+    },
+    {
+      "id": "AC023",
+      "nombre": "Joaquin Phoenix",
+      "descripcion": "Actor estadounidense conocido por su papel como Arthur Fleck / Joker en 'Joker' y por películas como 'Gladiator' y 'Her'.",
+      "edad": 50,
+      "ciudad_origen": "San Juan, Puerto Rico",
+      "imagen": "https://www.bekia.es/images/galeria/0000/538_joaquin-phoenix.jpg"
+    },
+    {
+      "id": "AC024",
+      "nombre": "Robert Pattinson",
+      "descripcion": "Actor británico conocido por su papel como Bruce Wayne / Batman en 'The Batman' y por su actuación en la saga 'Crepúsculo'.",
+      "edad": 39,
+      "ciudad_origen": "Londres, Reino Unido",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzk0MDQ5OTUxMV5BMl5BanBnXkFtZTcwMDM5ODk5Mg@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "AC025",
+      "nombre": "Brad Pitt",
+      "descripcion": "Actor estadounidense conocido por su papel como Tyler Durden en 'Fight Club' y por películas como 'Inglourious Basterds', 'Once Upon a Time in Hollywood' y 'Se7en'.",
+      "edad": 61,
+      "ciudad_origen": "Shawnee, Oklahoma, Estados Unidos",
+      "imagen": "https://i.redd.it/henry-cavill-vs-brad-pitt-young-who-do-you-find-more-v0-40bbqhcji3mb1.jpg?width=2165&format=pjpg&auto=webp&s=c52bbc815839fadb5b2a1ebc1ae31c9b5d4f2249"
+    },
+    {
+      "id": "AC026",
+      "nombre": "Edward Norton",
+      "descripcion": "Actor estadounidense conocido por su papel como el Narrador en 'Fight Club' y por películas como 'American History X' y 'Birdman'.",
+      "edad": 56,
+      "ciudad_origen": "Boston, Massachusetts, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Ed_Norton_Shankbone_Metropolitan_Opera_2009.jpg/250px-Ed_Norton_Shankbone_Metropolitan_Opera_2009.jpg"
+    },
+    {
+      "id": "AC027",
+      "nombre": "Steven Yeun",
+      "descripcion": "Actor surcoreano-estadounidense conocido por su papel como Glenn Rhee en 'The Walking Dead' y por películas como 'Burning' y 'Minari'.",
+      "edad": 41,
+      "ciudad_origen": "Seúl, Corea del Sur",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZTdkZDYwNzQtNmJhOC00NGRkLWJmOTgtZDM1NGE0ZDFmYTdmXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "AC028",
+      "nombre": "Mikey Madison",
+      "descripcion": "Actriz estadounidense conocida por su papel en 'Anora' y por interpretar a Sadie en 'Once Upon a Time in Hollywood'.",
+      "edad": 25,
+      "ciudad_origen": "Los Ángeles, California, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Mikey_Madison_at_the_2024_New_York_Film_Festival_2_%28cropped_3%29.jpg"
+    },
+    {
+      "id": "AC029",
+      "nombre": "Mark Eydelshteyn",
+      "descripcion": "Actor estadounidense conocido por su papel en 'Anora'.",
+      "edad": 35,
+      "ciudad_origen": "Nueva York, Nueva York, Estados Unidos",
+      "imagen": "https://ntvb.tmsimg.com/assets/assets/2143705_v9_aa.jpg"
+    },
+    {
+      "id": "AC030",
+      "nombre": "Bob Odenkirk",
+      "descripcion": "Actor estadounidense conocido por interpretar a Saul Goodman en 'Better Call Saul' y 'Breaking Bad'.",
+      "edad": 62,
+      "ciudad_origen": "Berwyn, Illinois, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjc1MDBkMWEtMzNmYy00NjFjLWFmZDktMzRlYThhMGQxZDYwXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "AC031",
+      "nombre": "Emilia Clarke",
+      "descripcion": "Actriz británica conocida por su papel de Daenerys Targaryen en 'Game of Thrones'.",
+      "edad": 38,
+      "ciudad_origen": "Londres, Reino Unido",
+      "imagen": "https://static.wikia.nocookie.net/disney/images/f/f9/Emilia_Clarke.jpg/revision/latest?cb=20180526020618&path-prefix=es"
+    },
+    {
+      "id": "AC032",
+      "nombre": "Matt Smith",
+      "descripcion": "Actor británico conocido por su papel de Daemon Targaryen en 'House of the Dragon' y como el undécimo Doctor en 'Doctor Who'.",
+      "edad": 42,
+      "ciudad_origen": "Northampton, Reino Unido",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1982/10/w300/xr2GSp8Pm6fT5VGm0I9tsWVcZ8q.jpg"
+    },
+    {
+      "id": "AC033",
+      "nombre": "Millie Bobby Brown",
+      "descripcion": "Actriz británica conocida por interpretar a Eleven en 'Stranger Things'.",
+      "edad": 21,
+      "ciudad_origen": "Marbella, España",
+      "imagen": "https://static.wikia.nocookie.net/strangerthings/images/b/bf/Milliebobbybrown2022.webp/revision/latest?cb=20220805195427&path-prefix=es"
+    },
+    {
+      "id": "AC034",
+      "nombre": "Karl Urban",
+      "descripcion": "Actor neozelandés conocido por su papel de Billy Butcher en 'The Boys' y como Éomer en 'El Señor de los Anillos'.",
+      "edad": 52,
+      "ciudad_origen": "Wellington, Nueva Zelanda",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1972/6/w1280/bsAnEFgVm5kn8DbBZKfnlLNll89.jpg"
+    },
+    {
+      "id": "AC035",
+      "nombre": "Henry Cavill",
+      "descripcion": "Actor británico conocido por su interpretación de Geralt de Rivia en 'The Witcher' y como Superman en el universo DC.",
+      "edad": 42,
+      "ciudad_origen": "Saint Helier, Jersey, Reino Unido",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/all/profile/1983/5/73968/w1280/kN3A5oLgtKYAxa9lAkpsIGYKYVo.jpg"
+    },
+    {
+      "id": "AC041",
+      "nombre": "Penn Badgley",
+      "descripcion": "Actor estadounidense conocido por su interpretación de Joe Goldberg en 'You' y como Dan Humphrey en 'Gossip Girl'.",
+      "edad": 39,
+      "ciudad_origen": "Baltimore, Maryland, Estados Unidos",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1986/11/w1280/cWvqsJyD8wLZ9GXs2DqqepBIfdD.jpg"
+    },
+    {
+      "id": "AC037",
+      "nombre": "Pedro Pascal",
+      "descripcion": "Actor chileno-estadounidense conocido por su papel de Din Djarin en 'The Mandalorian' y como Oberyn Martell en 'Game of Thrones'.",
+      "edad": 50,
+      "ciudad_origen": "Santiago, Chile",
+      "imagen": "https://www.usmagazine.com/wp-content/uploads/2024/11/Pedro-Pascal-Comes-From-a-Large-Family-Meet-the-Actors-Parents-and-Siblings.jpg?quality=86&strip=all"
+    },
+    {
+      "id": "AC038",
+      "nombre": "Matthew McConaughey",
+      "descripcion": "Actor estadounidense conocido por su interpretación de Rust Cohle en 'True Detective' y por películas como 'Dallas Buyers Club' y 'Interstellar'.",
+      "edad": 55,
+      "ciudad_origen": "Uvalde, Texas, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTg0MDc3ODUwOV5BMl5BanBnXkFtZTcwMTk2NjY4Nw@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "AC039",
+      "nombre": "Rami Malek",
+      "descripcion": "Actor estadounidense conocido por su papel de Elliot Alderson en 'Mr. Robot' y por interpretar a Freddie Mercury en 'Bohemian Rhapsody'.",
+      "edad": 44,
+      "ciudad_origen": "Los Ángeles, California, Estados Unidos",
+      "imagen": "https://static.wikia.nocookie.net/twilightsaga/images/3/38/Rami%2BMalek%2BLarry%2BCrowne%2BLos%2BAngeles%2BPremiere.jpg/revision/latest/thumbnail/width/360/height/450?cb=20120911085707"
+    },
+    {
+      "id": "AC040",
+      "nombre": "Jeremy Allen White",
+      "descripcion": "Actor estadounidense conocido por interpretar a Carmen 'Carmy' Berzatto en 'The Bear' y por su papel en 'Shameless'.",
+      "edad": 33,
+      "ciudad_origen": "Brooklyn, Nueva York, Estados Unidos",
+      "imagen": "https://tomatazos.buscafs.com/2018/03/jeremy-allen-white.jpg"
+    },
+    {
+      "id": "AC041",
+      "nombre": "Penn Badgley",
+      "descripcion": "Actor estadounidense conocido por su interpretación de Joe Goldberg en 'You' y como Dan Humphrey en 'Gossip Girl'.",
+      "edad": 39,
+      "ciudad_origen": "Baltimore, Maryland, Estados Unidos",
+      "imagen": "https://www.lavanguardia.com/peliculas-series/images/profile/1986/11/w1280/cWvqsJyD8wLZ9GXs2DqqepBIfdD.jpg"
+    },
+    {
+      "id": "AC042",
+      "nombre": "Álvaro Rico",
+      "descripcion": "Actor español conocido por su papel de Elmer en 'El Jardinero (2025)' y como Polo en 'Élite'.",
+      "edad": 28,
+      "ciudad_origen": "La Puebla de Montalbán, Toledo, España",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/74/%C3%81lvaro_Rico_%282021%29_%28cropped_bis%29.jpg"
+    },
+    {
+      "id": "AC043",
+      "nombre": "Bryan Cranston",
+      "descripcion": "Actor estadounidense conocido por su papel de Walter White en 'Breaking Bad' y como Hal en 'Malcolm in the Middle'.",
+      "edad": 69,
+      "ciudad_origen": "Hollywood, California, Estados Unidos",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTA2NjEyMTY4MTVeQTJeQWpwZ15BbWU3MDQ5NDAzNDc@._V1_.jpg"
+    },
+    {
+      "id": "AC044",
+      "nombre": "Aaron Paul",
+      "descripcion": "Actor estadounidense conocido por su interpretación de Jesse Pinkman en 'Breaking Bad' y por su participación en 'BoJack Horseman' y 'Westworld'.",
+      "edad": 45,
+      "ciudad_origen": "Emmett, Idaho, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Aaron_Paul%2C_May_2009_%282%29_%28cropped%29.jpg/250px-Aaron_Paul%2C_May_2009_%282%29_%28cropped%29.jpg"
+    }
+  ],
+  "authors": [
+    {
+      "id": "AU002",
+      "nombre": "Aldous Huxley",
+      "descripcion": "Escritor británico conocido por su novela distópica 'Brave New World' (1932) y otros trabajos como 'Island' y 'The Doors of Perception'.",
+      "edad": 69,
+      "ciudad_origen": "Godalming, Surrey, Reino Unido",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Aldous_Huxley_1947.png"
+    },
+    {
+      "id": "AU003",
+      "nombre": "Ray Bradbury",
+      "descripcion": "Escritor estadounidense conocido por su novela 'Fahrenheit 451' (1953) y colecciones de cuentos como 'The Martian Chronicles' y 'Something Wicked This Way Comes'.",
+      "edad": 91,
+      "ciudad_origen": "Waukegan, Illinois, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ray_Bradbury_%281975%29_-cropped-.jpg"
+    },
+    {
+      "id": "AU004",
+      "nombre": "J.R.R. Tolkien",
+      "descripcion": "Escritor británico conocido por crear el universo de la Tierra Media en obras como 'The Silmarillion', 'The Hobbit' y 'The Lord of the Rings'.",
+      "edad": 81,
+      "ciudad_origen": "Bloemfontein, Estado Libre de Orange (actual Sudáfrica)",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Tolkien-color.png"
+    },
+    {
+      "id": "AU005",
+      "nombre": "Frank Herbert",
+      "descripcion": "Escritor estadounidense conocido principalmente por su saga de ciencia ficción 'Dune', considerada una de las obras más influyentes del género.",
+      "edad": 65,
+      "ciudad_origen": "Tacoma, Washington, Estados Unidos",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Frank_Herbert_1984_%28square%29.jpg/640px-Frank_Herbert_1984_%28square%29.jpg"
+    },
+    {
+      "id": "AU006",
+      "nombre": "Fyodor Dostoevsky",
+      "descripcion": "Escritor ruso considerado uno de los más grandes novelistas de todos los tiempos, conocido por obras como 'Crime and Punishment', 'The Brothers Karamazov' y 'The Idiot'.",
+      "edad": 59,
+      "ciudad_origen": "Moscú, Imperio Ruso",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/78/Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg"
+    },
+    {
+      "id": "AU007",
+      "nombre": "Alexandre Dumas",
+      "descripcion": "Escritor francés conocido por sus novelas de aventuras como 'The Count of Monte Cristo', 'The Three Musketeers' y 'Twenty Years After'.",
+      "edad": 68,
+      "ciudad_origen": "Villers-Cotterêts, Francia",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Alexander_Dumas_p%C3%A8re_par_Nadar_-_Google_Art_Project.jpg/1200px-Alexander_Dumas_p%C3%A8re_par_Nadar_-_Google_Art_Project.jpg"
+    },
+    {
+      "id": "AU008",
+      "nombre": "Antoine de Saint-Exupéry",
+      "descripcion": "Escritor y aviador francés conocido por su obra 'The Little Prince', una de las novelas más traducidas y leídas del mundo.",
+      "edad": 44,
+      "ciudad_origen": "Lyon, Francia",
+      "imagen": "https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/67a355f7410050f6a099f53c_gJH0Gi5JPlz2OzbbwlfdvW5p-OC2zTvGuPqpSFDPwos.jpeg"
+    },
+    {
+      "id": "AU009",
+      "nombre": "Alan Moore",
+      "descripcion": "Escritor británico de cómics conocido por obras influyentes como 'Watchmen', 'Batman: The Killing Joke' y 'V for Vendetta'.",
+      "edad": 71,
+      "ciudad_origen": "Northampton, Inglaterra",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Alan_Moore_%282%29.jpg/1200px-Alan_Moore_%282%29.jpg"
+    },
+    {
+      "id": "AU010",
+      "nombre": "Art Spiegelman",
+      "descripcion": "Caricaturista y escritor estadounidense conocido principalmente por 'Maus', una novela gráfica que relata la experiencia de su padre como sobreviviente del Holocausto.",
+      "edad": 75,
+      "ciudad_origen": "Estocolmo, Suecia",
+      "imagen": "https://www.laimprentacg.com/wp-content/uploads/2023/03/art-spiegelman-02.jpg"
+    },
+    {
+      "id": "AU011",
+      "nombre": "Kentaro Miura",
+      "descripcion": "Mangaka japonés conocido por crear la serie 'Berserk', una de las obras más influyentes y aclamadas del manga moderno.",
+      "edad": 54,
+      "ciudad_origen": "Chiba, Japón",
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Kentaro_Miura_in_2020.jpg/250px-Kentaro_Miura_in_2020.jpg"
+    },
+    {
+      "id": "AU012",
+      "nombre": "Hajime Isayama",
+      "descripcion": "Mangaka japonés conocido por crear 'Attack on Titan', una de las series de manga más populares a nivel mundial.",
+      "edad": 37,
+      "ciudad_origen": "Ōyama, Japón",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/e9/FIBD2023HajimeIsayama_01.jpg"
+    },
+    {
+      "id": "AU013",
+      "nombre": "Takehiko Inoue",
+      "descripcion": "Mangaka japonés conocido por 'Vagabond' y 'Slam Dunk', dos de los mangas más vendidos y aclamados de todos los tiempos.",
+      "edad": 56,
+      "ciudad_origen": "Okuchi, Kagoshima, Japón",
+      "imagen": "https://ramenparados.com/wp-content/uploads/2015/09/TakehikoInoue.jpg"
+    },
+    {
+      "id": "AU014",
+      "nombre": "Sui Ishida",
+      "descripcion": "Mangaka japonés conocido por crear 'Tokyo Ghoul', una serie que ha ganado popularidad mundial por su narrativa oscura y personajes complejos.",
+      "edad": 34,
+      "ciudad_origen": "Fukuoka, Japón",
+      "imagen": "https://static.zerochan.net/Ishida.Sui.full.2908555.jpg"
+    },
+    {
+      "id": "AU015",
+      "nombre": "Tsugumi Ohba",
+      "descripcion": "Mangaka japonés conocido por ser el escritor de 'Death Note' y 'Bakuman', reconocidos por su narrativa intensa y personajes psicológicamente complejos.",
+      "edad": 60,
+      "ciudad_origen": "Tokio, Japón",
+      "imagen": "https://pm1.aminoapps.com/7247/c67070b86ab943e8325bb78fa9994754839cbfb7r1-320-316v2_uhq.jpg"
+    },
+    {
+      "id": "AU016",
+      "nombre": "Paulo Coelho",
+      "descripcion": "Escritor brasileño conocido por 'El Alquimista', una de las novelas más traducidas y leídas en todo el mundo.",
+      "edad": 77,
+      "ciudad_origen": "Río de Janeiro, Brasil",
+      "imagen": "https://www.excelencia.com/wp-content/uploads/2021/11/Captura-de-pantalla-2017-02-23-a-las-22.06.57-600x652-1.png"
+    },
+    {
+      "id": "AU017",
+      "nombre": "Katsuhiro Otomo",
+      "descripcion": "Mangaka, director y guionista japonés conocido por crear 'Akira', una de las obras más influyentes del manga y la animación moderna.",
+      "edad": 71,
+      "ciudad_origen": "Tome, Miyagi, Japón",
+      "imagen": "https://www.akiracomics.com/imagenes/poridentidad?identidad=86b7b06e-0eb5-4fec-9b52-5f7edbfb71aa&ancho=850&alto="
+    }
+  ],
+  "movies": [
+    {
+      "id": "MV001",
+      "titulo": "Harry Potter and the Philosopher's Stone",
+      "director_id": "DI002",
+      "actores_id": [
+        "AC001",
+        "AC002",
+        "AC003"
+      ],
+      "genero": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "duracion": 152,
+      "fecha_lanzamiento": "2001-11-16",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": [
+        "PL001",
+        "PL002",
+        "PL003"
+      ],
+      "sinopsis": "Un joven huérfano descubre que es un mago famoso y asiste a una escuela mágica donde se enfrenta a un oscuro poder que amenaza su mundo.",
+      "imagen": "https://images.justwatch.com/poster/87608067/s718/harry-potter-and-the-philosophers-stone.jpg"
+    },
+    {
+      "id": "MV002",
+      "titulo": "Harry Potter and the Chamber of Secrets",
+      "director_id": "DI002",
+      "actores_id": [
+        "AC001",
+        "AC002",
+        "AC003"
+      ],
+      "genero": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "duracion": 161,
+      "fecha_lanzamiento": "2002-11-15",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": [
+        "PL001",
+        "PL002",
+        "PL003"
+      ],
+      "sinopsis": "Harry regresa para su segundo año en Hogwarts, donde debe enfrentarse a un misterio oscuro y antiguo que amenaza a los estudiantes de la escuela.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGJhM2M2MWYtZjIzMC00MDZmLThkY2EtOWViMDhhYjRhMzk4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "MV003",
+      "titulo": "Harry Potter and the Prisoner of Azkaban",
+      "director_id": "DI003",
+      "actores_id": [
+        "AC001",
+        "AC002",
+        "AC003",
+        "AC004"
+      ],
+      "genero": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "duracion": 142,
+      "fecha_lanzamiento": "2004-06-04",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": [
+        "PL001",
+        "PL002",
+        "PL003"
+      ],
+      "sinopsis": "Harry descubre la verdad sobre el peligroso prisionero Sirius Black y su conexión con el pasado de sus padres.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_.jpg"
+    },
+    {
+      "id": "MV004",
+      "titulo": "Harry Potter and the Goblet of Fire",
+      "director_id": "DI004",
+      "actores_id": [
+        "AC001",
+        "AC002",
+        "AC003",
+        "AC024"
+      ],
+      "genero": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "duracion": 157,
+      "fecha_lanzamiento": "2005-11-18",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": [
+        "PL001",
+        "PL002",
+        "PL003"
+      ],
+      "sinopsis": "Harry es misteriosamente seleccionado para participar en el peligroso Torneo de los Tres Magos, donde enfrenta desafíos mortales.",
+      "imagen": "https://media.harrypotterfanzone.com/goblet-of-fire-wizarding-world-poster.jpg"
+    },
+    {
+      "id": "MV005",
+      "titulo": "Harry Potter and the Order of the Phoenix",
+      "director_id": "DI005",
+      "actores_id": [
+        "AC001",
+        "AC002",
+        "AC003"
+      ],
+      "genero": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "duracion": 138,
+      "fecha_lanzamiento": "2007-07-11",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": [
+        "PL001",
+        "PL002",
+        "PL003"
+      ],
+      "sinopsis": "Harry forma una resistencia secreta para enfrentarse a las fuerzas oscuras que amenazan tanto al mundo mágico como al mundo muggle.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYWJmM2M1YzItMjY1Ni00YzRmLTg5YWYtNDFmNTJjNzQ0ODkyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "MV006",
+      "titulo": "Harry Potter and the Half-Blood Prince",
+      "director_id": "DI005",
+      "actores_id": [
+        "AC001",
+        "AC002",
+        "AC003"
+      ],
+      "genero": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "duracion": 153,
+      "fecha_lanzamiento": "2009-07-15",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": [
+        "PL001",
+        "PL002",
+        "PL003"
+      ],
+      "sinopsis": "Harry descubre oscuros secretos sobre el pasado de Voldemort mientras se prepara para la batalla final.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "MV007",
+      "titulo": "Harry Potter and the Deathly Hallows: Part 1",
+      "director_id": "DI005",
+      "actores_id": [
+        "AC001",
+        "AC002",
+        "AC003",
+        "AC006"
+      ],
+      "genero": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "duracion": 146,
+      "fecha_lanzamiento": "2010-11-19",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": [
+        "PL001",
+        "PL002",
+        "PL003"
+      ],
+      "sinopsis": "Harry, Ron y Hermione comienzan una peligrosa misión para destruir los Horrocruxes de Voldemort.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_.jpg"
+    },
+    {
+      "id": "MV008",
+      "titulo": "Harry Potter and the Deathly Hallows: Part 2",
+      "director_id": "DI005",
+      "actores_id": [
+        "AC001",
+        "AC002",
+        "AC003",
+        "AC006"
+      ],
+      "genero": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "duracion": 130,
+      "fecha_lanzamiento": "2011-07-15",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": [
+        "PL001",
+        "PL002",
+        "PL003"
+      ],
+      "sinopsis": "La batalla final entre Harry y Voldemort se libra en Hogwarts, donde se decide el destino del mundo mágico.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "MV009",
+      "titulo": "The Godfather",
+      "director_id": "DI006",
+      "actores_id": [
+        "AC007",
+        "AC008",
+        "AC010"
+      ],
+      "genero": [
+        "Crimen",
+        "Drama"
+      ],
+      "duracion": 175,
+      "fecha_lanzamiento": "1972-03-24",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "El patriarca de una familia criminal intenta transferir el control de su imperio clandestino a su hijo menor.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "MV010",
+      "titulo": "The Godfather Part II",
+      "director_id": "DI006",
+      "actores_id": [
+        "AC008",
+        "AC009",
+        "AC010"
+      ],
+      "genero": [
+        "Crimen",
+        "Drama"
+      ],
+      "duracion": 202,
+      "fecha_lanzamiento": "1974-12-20",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "La historia paralela del ascenso al poder de Vito Corleone y el conflicto interno de su hijo Michael como el nuevo líder de la familia Corleone.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDIxMzBlZDktZjMxNy00ZGI4LTgxNDEtYWRlNzRjMjJmOGQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "MV011",
+      "titulo": "The Godfather Part III",
+      "director_id": "DI006",
+      "actores_id": [
+        "AC008",
+        "AC010"
+      ],
+      "genero": [
+        "Crimen",
+        "Drama"
+      ],
+      "duracion": 162,
+      "fecha_lanzamiento": "1990-12-25",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Ahora en sus últimos años, Michael Corleone intenta legitimar los negocios de su familia mientras enfrenta viejos enemigos y traiciones.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDVjODgzNTEtNjBiNS00ODBjLWEwZjUtMDljZTFhOTA4M2MxXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "MV012",
+      "titulo": "Dune",
+      "director_id": "DI008",
+      "actores_id": [
+        "AC015",
+        "AC016"
+      ],
+      "genero": [
+        "Ciencia Ficción",
+        "Aventura",
+        "Drama"
+      ],
+      "duracion": 155,
+      "fecha_lanzamiento": "2021-10-22",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Un joven heredero se enfrenta a su destino en un planeta desértico donde el poder y la supervivencia se definen por una rara especia.",
+      "imagen": "https://alternativemovieposters.com/wp-content/uploads/2021/02/ClaireCurtis_Dune.jpg"
+    },
+    {
+      "id": "MV013",
+      "titulo": "Interstellar",
+      "director_id": "DI007",
+      "actores_id": [
+        "AC017",
+        "AC018"
+      ],
+      "genero": [
+        "Ciencia Ficción",
+        "Aventura",
+        "Drama"
+      ],
+      "duracion": 169,
+      "fecha_lanzamiento": "2014-11-07",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "En un futuro cercano, un grupo de astronautas emprende un viaje a través de un agujero de gusano para encontrar un nuevo hogar para la humanidad.",
+      "imagen": "https://es.web.img3.acsta.net/pictures/14/10/02/11/07/341344.jpg"
+    },
+    {
+      "id": "MV014",
+      "titulo": "Whiplash",
+      "director_id": "DI009",
+      "actores_id": [
+        "AC019",
+        "AC020"
+      ],
+      "genero": [
+        "Drama",
+        "Música",
+        "Suspenso"
+      ],
+      "duracion": 107,
+      "fecha_lanzamiento": "2014-10-10",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Andrew Neiman es un joven y ambicioso baterista de jazz. Marcado por el fracaso de la carrera literaria de su padre, está obsesionado con alcanzar la cima dentro del elitista conservatorio de música de la Costa Este.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BN2NiMjY3OTgtMzVmYi00MjIwLTljOWItY2QzYTdiNTFkMTQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "MV015",
+      "titulo": "Joker",
+      "director_id": "DI010",
+      "actores_id": [
+        "AC023",
+        "AC009"
+      ],
+      "genero": [
+        "Crimen",
+        "Drama",
+        "Suspenso"
+      ],
+      "duracion": 122,
+      "fecha_lanzamiento": "2019-10-04",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Un comediante fallido se transforma en un peligroso criminal después de ser rechazado por la sociedad.",
+      "imagen": "https://m.media-amazon.com/images/I/71-6ttsgzVL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "MV016",
+      "titulo": "Oppenheimer",
+      "director_id": "DI007",
+      "actores_id": [
+        "AC021",
+        "AC022"
+      ],
+      "genero": [
+        "Biografía",
+        "Drama",
+        "Histórico"
+      ],
+      "duracion": 180,
+      "fecha_lanzamiento": "2023-07-21",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "La historia de J. Robert Oppenheimer, el físico que dirigió el Proyecto Manhattan y ayudó a desarrollar la primera bomba atómica.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNTFlZDI1YWQtMTVjNy00YWU1LTg2YjktMTlhYmRiYzQ3NTVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "MV017",
+      "titulo": "The Batman",
+      "director_id": "DI011",
+      "actores_id": [
+        "AC024"
+      ],
+      "genero": [
+        "Acción",
+        "Crimen",
+        "Drama"
+      ],
+      "duracion": 176,
+      "fecha_lanzamiento": "2022-03-04",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Bruce Wayne, como Batman, debe enfrentarse a la corrupción en Gotham City y a un peligroso asesino conocido como el Riddler.",
+      "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/02/nuevos-posteres-oficiales-batman-2604263.jpg"
+    },
+    {
+      "id": "MV018",
+      "titulo": "Batman Begins",
+      "director_id": "DI007",
+      "actores_id": [
+        "AC011",
+        "AC012"
+      ],
+      "genero": [
+        "Acción",
+        "Crimen",
+        "Drama"
+      ],
+      "duracion": 140,
+      "fecha_lanzamiento": "2005-06-15",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "El origen de Bruce Wayne como Batman, desde su entrenamiento hasta su lucha para limpiar Gotham City del crimen.",
+      "imagen": "https://pics.filmaffinity.com/Batman_Begins-413277928-large.jpg"
+    },
+    {
+      "id": "MV019",
+      "titulo": "The Dark Knight",
+      "director_id": "DI007",
+      "actores_id": [
+        "AC011",
+        "AC012",
+        "AC013"
+      ],
+      "genero": [
+        "Acción",
+        "Crimen",
+        "Drama"
+      ],
+      "duracion": 152,
+      "fecha_lanzamiento": "2008-07-18",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Batman enfrenta a su mayor enemigo, el Joker, en una batalla que pondrá a prueba los límites de su moralidad.",
+      "imagen": "https://i.ebayimg.com/images/g/dhIAAOSw~gRVw4yu/s-l1200.jpg"
+    },
+    {
+      "id": "MV020",
+      "titulo": "The Dark Knight Rises",
+      "director_id": "DI007",
+      "actores_id": [
+        "AC011",
+        "AC012",
+        "AC014"
+      ],
+      "genero": [
+        "Acción",
+        "Crimen",
+        "Drama"
+      ],
+      "duracion": 165,
+      "fecha_lanzamiento": "2012-07-20",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Ocho años después del caos causado por el Joker, Batman debe regresar para salvar Gotham City de la destrucción a manos de Bane.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZDdkYjIyNTEtYjlkZC00NDdlLTgxYmUtMzI3NjM5YzQ0NjY5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "MV021",
+      "titulo": "Everything Everywhere All at Once",
+      "director_id": "DI012",
+      "actores_id": [
+        "AC027"
+      ],
+      "genero": [
+        "Ciencia Ficción",
+        "Acción",
+        "Comedia"
+      ],
+      "duracion": 139,
+      "fecha_lanzamiento": "2022-03-25",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Una mujer común se ve envuelta en una aventura épica a través de múltiples universos para salvar a su familia y a la existencia misma.",
+      "imagen": "https://image.tmdb.org/t/p/original/9FHEtQPiWw979Vws99OKDUKzS30.jpg"
+    },
+    {
+      "id": "MV022",
+      "titulo": "Fight Club",
+      "director_id": "DI012",
+      "actores_id": [
+        "AC025",
+        "AC026"
+      ],
+      "genero": [
+        "Drama",
+        "Suspenso",
+        "Acción"
+      ],
+      "duracion": 139,
+      "fecha_lanzamiento": "1999-10-15",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Un hombre insomne forma un club secreto con un vendedor de jabón, lo que desencadena una serie de eventos violentos y caóticos.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "MV023",
+      "titulo": "Mickey 17",
+      "director_id": "DI013",
+      "actores_id": [
+        "AC024",
+        "AC027"
+      ],
+      "genero": [
+        "Ciencia Ficción",
+        "Drama",
+        "Aventura"
+      ],
+      "duracion": 120,
+      "fecha_lanzamiento": "2024-03-29",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Un clon utilizado para misiones suicidas en un planeta lejano comienza a cuestionar su propósito cuando se encuentra en peligro de ser reemplazado.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BY2I5MmUxZGMtNTI0MC00OWU0LThjZjMtMDRjYTNmZDdkYmJhXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "MV024",
+      "titulo": "Anora",
+      "director_id": "DI014",
+      "actores_id": [
+        "AC028",
+        "AC029"
+      ],
+      "genero": [
+        "Drama",
+        "Suspenso",
+        "Misterio"
+      ],
+      "duracion": 115,
+      "fecha_lanzamiento": "2024-10-15",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": [
+        "PL001",
+        "PL004"
+      ],
+      "sinopsis": "Una joven se enfrenta a las sombras de su pasado mientras descubre oscuros secretos familiares.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYThiN2M0NTItODRmNC00NDhlLWFiYTgtMWM2YTEyYzI3ZTY1XkEyXkFqcGc@._V1_.jpg"
+    }
+  ],
+  "books": [
+    {
+      "id": "BK001",
+      "titulo": "Brave New World",
+      "autor_id": "AU002",
+      "genero": [
+        "Ciencia Ficción",
+        "Distopía"
+      ],
+      "num_paginas": 311,
+      "fecha_publicacion": "1932-01-01",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "editorial": "Chatto & Windus",
+      "isbn": "978-0060850524",
+      "sinopsis": "En un futuro distópico, la humanidad vive bajo un estricto control social que elimina las emociones y la libertad individual.",
+      "imagen": "https://www.crisol.com.pe/media/catalog/product/cache/cf84e6047db2ba7f2d5c381080c69ffe/9/7/9781784870140_z0qrmjlzprwn2vln.jpg"
+    },
+    {
+      "id": "BK002",
+      "titulo": "Fahrenheit 451",
+      "autor_id": "AU003",
+      "genero": [
+        "Ciencia Ficción",
+        "Distopía"
+      ],
+      "num_paginas": 158,
+      "fecha_publicacion": "1953-10-19",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "editorial": "Ballantine Books",
+      "isbn": "978-1451673319",
+      "sinopsis": "En un futuro opresivo, los bomberos queman libros para suprimir el conocimiento y el pensamiento crítico.",
+      "imagen": "https://www.crisol.com.pe/media/catalog/product/cache/cf84e6047db2ba7f2d5c381080c69ffe/9/7/9786124262234_pvbpckmo3v8lkhvu.jpg"
+    },
+    {
+      "id": "BK003",
+      "titulo": "The Silmarillion",
+      "autor_id": "AU004",
+      "genero": [
+        "Fantasía",
+        "Épica"
+      ],
+      "num_paginas": 365,
+      "fecha_publicacion": "1977-09-15",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "editorial": "George Allen & Unwin",
+      "isbn": "978-0618391110",
+      "sinopsis": "Una colección de historias que relatan los orígenes y las primeras edades del mundo de la Tierra Media.",
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/86/44/864433ce26b854c45a844910736c1baf.jpg"
+    },
+    {
+      "id": "BK004",
+      "titulo": "Dune",
+      "autor_id": "AU005",
+      "genero": [
+        "Ciencia Ficción",
+        "Aventura"
+      ],
+      "num_paginas": 412,
+      "fecha_publicacion": "1965-08-01",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "editorial": "Chilton Books",
+      "isbn": "978-0441172719",
+      "sinopsis": "La historia de Paul Atreides, un joven noble que se convierte en el líder de un planeta desértico donde se produce la especia más valiosa del universo.",
+      "imagen": "https://www.penguinlibros.com/pe/1681400/dune-nueva-edicion-las-cronicas-de-dune-1.jpg"
+    },
+    {
+      "id": "BK005",
+      "titulo": "Crime and Punishment",
+      "autor_id": "AU006",
+      "genero": [
+        "Ficción",
+        "Psicológico",
+        "Drama"
+      ],
+      "num_paginas": 430,
+      "fecha_publicacion": "1866-01-01",
+      "idioma_original": "Ruso",
+      "pais_origen": "Rusia",
+      "editorial": "The Russian Messenger",
+      "isbn": "978-0486415871",
+      "sinopsis": "Un joven estudiante lucha con su conciencia después de cometer un asesinato en busca de justicia personal.",
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/55/27/5527f9efda8f1efe32107609c1117ca8.jpg"
+    },
+    {
+      "id": "BK006",
+      "titulo": "The Count of Monte Cristo",
+      "autor_id": "AU007",
+      "genero": [
+        "Aventura",
+        "Ficción Histórica"
+      ],
+      "num_paginas": 1276,
+      "fecha_publicacion": "1844-08-28",
+      "idioma_original": "Francés",
+      "pais_origen": "Francia",
+      "editorial": "Le Siècle",
+      "isbn": "978-0140449266",
+      "sinopsis": "Un hombre es traicionado y encarcelado injustamente, y luego busca vengarse de quienes lo traicionaron.",
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/e6/8c/e68c2b03eeeaa8cb4493f8803d784642.jpg"
+    },
+    {
+      "id": "BK007",
+      "titulo": "The Little Prince",
+      "autor_id": "AU008",
+      "genero": [
+        "Ficción",
+        "Fábula"
+      ],
+      "num_paginas": 96,
+      "fecha_publicacion": "1943-04-06",
+      "idioma_original": "Francés",
+      "pais_origen": "Francia",
+      "editorial": "Reynal & Hitchcock",
+      "isbn": "978-0156012195",
+      "sinopsis": "Un piloto perdido en el desierto se encuentra con un joven príncipe de otro planeta que le cuenta sus aventuras.",
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/db/bf/dbbf18663c14d51fcee5aa1b346a1ccb.jpg"
+    },
+    {
+      "id": "BK008",
+      "titulo": "Watchmen",
+      "autor_id": "AU009",
+      "genero": [
+        "Cómic",
+        "Distopía",
+        "Superhéroes"
+      ],
+      "num_paginas": 416,
+      "fecha_publicacion": "1986-09-01",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "editorial": "DC Comics",
+      "isbn": "978-1401245252",
+      "sinopsis": "En un mundo alternativo donde los superhéroes son reales, una conspiración global amenaza la paz mundial.",
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/6a/2a/6a2a2509db395260a809ccfa368e7845.jpg"
+    },
+    {
+      "id": "BK009",
+      "titulo": "Batman: The Killing Joke",
+      "autor_id": "AU009",
+      "genero": [
+        "Cómic",
+        "Superhéroes",
+        "Suspenso"
+      ],
+      "num_paginas": 64,
+      "fecha_publicacion": "1988-03-29",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "editorial": "DC Comics",
+      "isbn": "978-1401216672",
+      "sinopsis": "Mientras Batman persigue al Guasón, el payasezco criminal planea un ataque a la família Gordon reflejando así su caída en la locura total.",
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/c3/07/c307babb69c4c5425b48ebe6a6762a31.jpg"
+    },
+    {
+      "id": "BK010",
+      "titulo": "V for Vendetta",
+      "autor_id": "AU009",
+      "genero": [
+        "Cómic",
+        "Distopía",
+        "Política"
+      ],
+      "num_paginas": 296,
+      "fecha_publicacion": "1982-03-01",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "editorial": "DC Comics",
+      "isbn": "978-1401208417",
+      "sinopsis": "En un futuro distópico, un vigilante enmascarado lucha contra un gobierno totalitario para liberar a la sociedad.",
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/46/70/4670d6ac966abce7595163b261711497.jpg"
+    },
+    {
+      "id": "BK011",
+      "titulo": "Maus",
+      "autor_id": "AU010",
+      "genero": [
+        "Cómic",
+        "Histórico",
+        "Biografía"
+      ],
+      "num_paginas": 296,
+      "fecha_publicacion": "1980-01-01",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "editorial": "Pantheon Books",
+      "isbn": "978-0394747231",
+      "sinopsis": "Una novela gráfica que relata las experiencias de un sobreviviente del Holocausto a través de personajes animales.",
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/80/4e/804ed121ede17e60a01761da5149f893.jpg"
+    },
+    {
+      "id": "BK012",
+      "titulo": "Berserk",
+      "autor_id": "AU011",
+      "genero": [
+        "Manga",
+        "Fantasía Oscura",
+        "Aventura"
+      ],
+      "num_paginas": 224,
+      "fecha_publicacion": "1989-08-25",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "editorial": "Hakusensha",
+      "isbn": "978-1593070205",
+      "sinopsis": "La historia de Guts, un guerrero solitario que busca venganza en un mundo oscuro y brutal.",
+      "imagen": "https://cdn.kobo.com/book-images/b7ccda5d-c44e-4041-a1d4-382e69c641a1/1200/1200/False/berserk-volume-1.jpg"
+    },
+    {
+      "id": "BK013",
+      "titulo": "Attack on Titan",
+      "autor_id": "AU012",
+      "genero": [
+        "Manga",
+        "Acción",
+        "Aventura"
+      ],
+      "num_paginas": 192,
+      "fecha_publicacion": "2009-09-09",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "editorial": "Kodansha",
+      "isbn": "978-1612620244",
+      "sinopsis": "La humanidad lucha por sobrevivir en un mundo asediado por gigantes devoradores de humanos.",
+      "imagen": "https://m.media-amazon.com/images/I/81qPzeEO5IL.jpg"
+    },
+    {
+      "id": "BK014",
+      "titulo": "Vagabond",
+      "autor_id": "AU013",
+      "genero": [
+        "Manga",
+        "Histórico",
+        "Acción"
+      ],
+      "num_paginas": 200,
+      "fecha_publicacion": "1998-09-17",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "editorial": "Kodansha",
+      "isbn": "978-1421520544",
+      "sinopsis": "La historia épica del legendario espadachín Miyamoto Musashi, basado en la novela 'Musashi' de Eiji Yoshikawa.",
+      "imagen": "https://m.media-amazon.com/images/I/71TY7kJBo9L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "BK015",
+      "titulo": "Tokyo Ghoul",
+      "autor_id": "AU014",
+      "genero": [
+        "Manga",
+        "Horror",
+        "Suspenso"
+      ],
+      "num_paginas": 224,
+      "fecha_publicacion": "2011-09-08",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "editorial": "Shueisha",
+      "isbn": "978-1421580364",
+      "sinopsis": "En un mundo donde los ghouls cazan humanos para sobrevivir, un joven se convierte en mitad humano, mitad ghoul.",
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/59/42/59427b708e8938fd44e18c6b211e6602.jpg"
+    },
+    {
+      "id": "BK016",
+      "titulo": "Death Note",
+      "autor_id": "AU015",
+      "genero": [
+        "Manga",
+        "Suspenso",
+        "Sobrenatural"
+      ],
+      "num_paginas": 200,
+      "fecha_publicacion": "2003-12-01",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "editorial": "Shueisha",
+      "isbn": "978-1421539645",
+      "sinopsis": "Un estudiante de secundaria encuentra un cuaderno que le permite matar a cualquier persona cuyo nombre escriba en él.",
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/3d/12/3d12214797234717eaae5bbc8d093276.jpg"
+    },
+    {
+      "id": "BK017",
+      "titulo": "The Alchemist",
+      "autor_id": "AU016",
+      "genero": [
+        "Ficción",
+        "Filosofía",
+        "Aventura"
+      ],
+      "num_paginas": 208,
+      "fecha_publicacion": "1988-04-15",
+      "idioma_original": "Portugués",
+      "pais_origen": "Brasil",
+      "editorial": "HarperOne",
+      "isbn": "978-0061122415",
+      "sinopsis": "La historia de un joven pastor en busca de un tesoro personal que aprende sobre la vida y la felicidad.",
+      "imagen": "https://i5.walmartimages.com/seo/The-Alchemist-by-Paulo-Coelho-9780062355300_d01c97e5-ac11-4b29-8b99-a903925a5408.850bafbe56c24bb1497526818d832288.jpeg"
+    },
+    {
+      "id": "BK018",
+      "titulo": "Akira",
+      "autor_id": "AU017",
+      "genero": [
+        "Manga",
+        "Ciencia Ficción",
+        "Cyberpunk"
+      ],
+      "num_paginas": 359,
+      "fecha_publicacion": "1982-12-06",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "editorial": "Kodansha",
+      "isbn": "978-1935429005",
+      "sinopsis": "En un Tokio post-apocalíptico, un grupo de jóvenes descubre poderes psíquicos que podrían destruir el mundo.",
+      "imagen": "https://store.crunchyroll.com/on/demandware.static/-/Sites-crunchyroll-master-catalog/default/dw3469e6de/rightstuf/9781935429067_manga-Akira-Graphic-Novel-4-primary.jpg"
+    }
+  ],
+
+  "series": [
+    {
+      "id": "SR001",
+      "titulo": "Breaking Bad",
+      "director_id": "DI015",
+      "actores_id": ["AC043", "AC044", "AC030"],
+      "genero": ["Crimen", "Drama", "Suspenso"],
+      "num_temporadas": 5,
+      "num_episodios": 62,
+      "fecha_lanzamiento": "2008-01-20",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL001", "PL002", "PL004"],
+      "sinopsis": "Walter White, un profesor de química de secundaria en Albuquerque, descubre que tiene cáncer de pulmón inoperable. Para asegurar el futuro financiero de su familia, se asocia con su antiguo alumno, Jesse Pinkman, para fabricar y vender metanfetaminas. A medida que se sumerge en el peligroso mundo del narcotráfico, se transforma de un hombre desesperado a un despiadado señor de la droga conocido como Heisenberg, enfrentándose a enemigos letales y a su propio deterioro moral.",
+      "imagen": "https://images-cdn.ubuy.co.in/634e35c3802d917a630c6706-breaking-bad-tv-show-2008-2013-poster.jpg"
+    },
+    {
+      "id": "SR002",
+      "titulo": "Better Call Saul",
+      "director_id": "DI016",
+      "actores_id": ["AC030", "AC043", "AC044"],
+      "genero": ["Crimen", "Drama", "Comedia negra"],
+      "num_temporadas": 6,
+      "num_episodios": 63,
+      "fecha_lanzamiento": "2015-02-08",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL001", "PL002", "PL004"],
+      "sinopsis": "Antes de convertirse en el infame abogado Saul Goodman, Jimmy McGill lucha por abrirse camino en el mundo legal de Albuquerque. Con un corazón noble pero métodos cuestionables, se enfrenta a desafíos éticos y morales que lo empujan lentamente hacia el lado oscuro, mientras intenta dejar atrás su pasado como un estafador y convertirse en un respetado abogado. La serie explora su complicada relación con su hermano Chuck y su evolución hacia el criminal sin escrúpulos que conocemos en Breaking Bad.",
+      "imagen": "https://es.web.img2.acsta.net/pictures/18/07/02/14/12/5660762.jpg"
+    },
+    {
+      "id": "SR003",
+      "titulo": "Game of Thrones",
+      "director_id": "DI017",
+      "actores_id": ["AC031", "AC037", "AC008"],
+      "genero": ["Fantasía", "Drama", "Aventura"],
+      "num_temporadas": 8,
+      "num_episodios": 73,
+      "fecha_lanzamiento": "2011-04-17",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL001", "PL004"],
+      "sinopsis": "En el continente de Westeros, varias familias nobles compiten por el Trono de Hierro y el control de los Siete Reinos. Mientras tanto, una antigua amenaza regresa desde el norte, poniendo en peligro a toda la humanidad. Con alianzas traicioneras, conflictos épicos y personajes complejos, Game of Thrones cuenta una historia de poder, traición, honor y supervivencia en un mundo brutalmente realista.",
+      "imagen": "https://static.posters.cz/image/1300/135455.jpg"
+    },
+    {
+      "id": "SR004",
+      "titulo": "House of the Dragon",
+      "director_id": "DI018",
+      "actores_id": ["AC031", "AC032", "AC037"],
+      "genero": ["Fantasía", "Drama", "Aventura"],
+      "num_temporadas": 2,
+      "num_episodios": 20,
+      "fecha_lanzamiento": "2022-08-21",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL001", "PL004"],
+      "sinopsis": "Ambientada 200 años antes de los eventos de Game of Thrones, esta serie sigue a la poderosa Casa Targaryen en su época dorada. Con dragones dominando los cielos y conflictos internos amenazando con destruir a la familia, se narra la brutal guerra civil conocida como la Danza de los Dragones, donde hermanos, primos y tíos luchan por el control del Trono de Hierro.",
+      "imagen": "https://static.posters.cz/image/1300/230492.jpg"
+    },
+    {
+      "id": "SR005",
+      "titulo": "Stranger Things",
+      "director_id": "DI019",
+      "actores_id": ["AC033"],
+      "genero": ["Ciencia ficción", "Horror", "Drama", "Misterio"],
+      "num_temporadas": 5,
+      "num_episodios": 42,
+      "fecha_lanzamiento": "2016-07-15",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL001", "PL002"],
+      "sinopsis": "En el pequeño pueblo de Hawkins, Indiana, un niño desaparece misteriosamente, desencadenando una serie de eventos sobrenaturales que revelan una dimensión paralela conocida como el 'Upside Down'. Mientras sus amigos buscan respuestas, descubren a Eleven, una niña con habilidades psíquicas que puede ser la clave para entender los oscuros secretos que acechan a su ciudad.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjg2NmM0MTEtYWY2Yy00NmFlLTllNTMtMjVkZjEwMGVlNzdjXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "SR006",
+      "titulo": "The Boys",
+      "director_id": "DI020",
+      "actores_id": ["AC034"],
+      "genero": ["Acción", "Comedia negra", "Drama", "Superhéroes"],
+      "num_temporadas": 4,
+      "num_episodios": 40,
+      "fecha_lanzamiento": "2019-07-26",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL002"],
+      "sinopsis": "En un mundo donde los superhéroes son celebridades poderosas pero corruptas, un grupo de vigilantes conocido como 'The Boys' lucha por exponer la verdad y derribar a los superhéroes más corruptos, liderados por el sádico Homelander. Con acción violenta y humor oscuro, la serie explora los peligros del poder sin control y la hipocresía de los ídolos modernos.",
+      "imagen": "https://www.bolsamania.com/seriesadictos/wp-content/uploads/2020/08/the-boys-season-2-poster-1-450x667.jpg"
+    },
+    {
+      "id": "SR007",
+      "titulo": "Invincible",
+      "director_id": "DI021",
+      "actores_id": ["AC027"],
+      "genero": ["Animación", "Acción", "Superhéroes", "Drama"],
+      "num_temporadas": 2,
+      "num_episodios": 20,
+      "fecha_lanzamiento": "2021-03-26",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL001", "PL002"],
+      "sinopsis": "Mark Grayson es un adolescente normal, excepto por el hecho de que su padre es el superhéroe más poderoso del planeta, Omni-Man. Al descubrir sus propios poderes, Mark se enfrenta a las duras realidades de ser un héroe y los oscuros secretos que su padre ha estado ocultando. Con batallas sangrientas y dilemas morales, Invincible redefine el género de los superhéroes animados.",
+      "imagen": "https://images-cdn.ubuy.pe/662add9bc1c0193b1f1e8cbc-invincible.jpg"
+    },
+    {
+      "id": "SR008",
+      "titulo": "The Witcher",
+      "director_id": "DI022",
+      "actores_id": ["AC035"],
+      "genero": ["Fantasía", "Aventura", "Acción", "Drama"],
+      "num_temporadas": 3,
+      "num_episodios": 24,
+      "fecha_lanzamiento": "2019-12-20",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL001"],
+      "sinopsis": "Basada en las novelas de Andrzej Sapkowski, la serie sigue a Geralt de Rivia, un solitario cazador de monstruos con habilidades sobrehumanas. Mientras lucha por encontrar su lugar en un mundo lleno de humanos más crueles que las propias bestias, Geralt se cruza con poderosas hechiceras y princesas en fuga, descubriendo que su destino está entrelazado con el de la joven Ciri, poseedora de un misterioso poder.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTQ5MDU5MTktMDZkMy00NDU1LWIxM2UtODg5OGFiNmRhNDBjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "SR009",
+      "titulo": "Peaky Blinders",
+      "director_id": "DI023",
+      "actores_id": ["AC021"],
+      "genero": ["Drama", "Crimen", "Histórico", "Suspenso"],
+      "num_temporadas": 6,
+      "num_episodios": 36,
+      "fecha_lanzamiento": "2013-09-12",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": ["PL001", "PL002"],
+      "sinopsis": "Ambientada en Birmingham tras la Primera Guerra Mundial, la serie sigue a la familia Shelby, una organización criminal liderada por el carismático y despiadado Tommy Shelby. Con un estilo único y una narrativa intensa, Peaky Blinders explora el ascenso de los Shelby al poder, enfrentándose a policías corruptos, enemigos brutales y conflictos familiares que amenazan con destruir su imperio.",
+      "imagen": "https://m.media-amazon.com/images/I/61MqXuwYPAL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "SR010",
+      "titulo": "The Mandalorian",
+      "director_id": "DI024",
+      "actores_id": ["AC037"],
+      "genero": ["Fantasía", "Ciencia ficción", "Aventura", "Acción"],
+      "num_temporadas": 4,
+      "num_episodios": 32,
+      "fecha_lanzamiento": "2019-11-12",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL003"],
+      "sinopsis": "Ambientada en el universo de Star Wars, esta serie sigue a un cazarrecompensas mandaloriano solitario conocido como Din Djarin. Mientras viaja por los rincones más oscuros de la galaxia, se convierte en el protector de un misterioso niño sensible a la Fuerza, conocido como 'Grogu', enfrentándose a imperiales remanentes, cazarrecompensas rivales y enemigos poderosos.",
+      "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/NS3TDDEPQJAK7PSGWANCM7FPVE.jpeg"
+    },
+    {
+      "id": "SR011",
+      "titulo": "True Detective",
+      "director_id": "DI025",
+      "actores_id": ["AC038"],
+      "genero": ["Crimen", "Drama", "Misterio", "Thriller"],
+      "num_temporadas": 4,
+      "num_episodios": 32,
+      "fecha_lanzamiento": "2014-01-12",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL004"],
+      "sinopsis": "Una serie antológica que explora diferentes casos policiales a lo largo de varias décadas. Cada temporada presenta nuevos detectives, historias y escenarios, pero siempre con un enfoque en los aspectos más oscuros de la humanidad. La primera temporada sigue a Rust Cohle y Martin Hart mientras investigan una serie de asesinatos rituales en los pantanos de Luisiana.",
+      "imagen": "https://ih1.redbubble.net/image.600947688.0040/flat,750x,075,f-pad,750x1000,f8f8f8.u3.jpg"
+    },
+    {
+      "id": "SR012",
+      "titulo": "Arcane",
+      "director_id": "DI026",
+      "genero": ["Animación", "Acción", "Fantasía", "Aventura"],
+      "num_temporadas": 2,
+      "num_episodios": 18,
+      "fecha_lanzamiento": "2021-11-06",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL001"],
+      "sinopsis": "Ambientada en el universo de League of Legends, Arcane explora la historia de dos icónicas campeonas, Vi y Jinx, mientras se enfrentan a los desafíos de las ciudades gemelas de Piltover y Zaun. Con una animación impresionante y una narrativa emocionalmente intensa, la serie revela los orígenes de estos personajes y los conflictos que definirán sus destinos.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOWJhYjdjNWEtMWFmNC00ZjNkLThlZGEtN2NkM2U3NTVmMjZkXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "SR013",
+      "titulo": "Attack on Titan",
+      "director_id": "DI027",
+      "genero": ["Animación", "Acción", "Fantasía oscura", "Post-apocalíptico"],
+      "num_temporadas": 4,
+      "num_episodios": 88,
+      "fecha_lanzamiento": "2013-04-07",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "plataformas_id": ["PL007"],
+      "sinopsis": "En un mundo donde la humanidad vive dentro de enormes murallas para protegerse de gigantescos seres conocidos como Titanes, Eren Yeager jura exterminar a estas criaturas después de que un Titán Colosal destruya su hogar. Con la ayuda de sus amigos Mikasa y Armin, se une al Cuerpo de Exploración para enfrentar los horrores de este mundo brutal y descubrir la verdad detrás de los Titanes.",
+      "imagen": "https://files.ekmcdn.com/allwallpapers/images/attack-on-titan-eren-yeager-poster-61x91.5cm-large-new-manga-anime-38928-1-p.jpg"
+    },
+    {
+      "id": "SR014",
+      "titulo": "Jujutsu Kaisen",
+      "director_id": "DI028",
+      "genero": ["Animación", "Acción", "Aventura", "Fantasía oscura", "Sobrenatural"],
+      "num_temporadas": 2,
+      "num_episodios": 48,
+      "fecha_lanzamiento": "2020-10-03",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "plataformas_id": ["PL007"],
+      "sinopsis": "Yuji Itadori, un estudiante de secundaria con una fuerza física increíble, se encuentra atrapado en el mundo de las maldiciones después de consumir el dedo de un antiguo y poderoso espíritu maligno, Ryomen Sukuna. Ahora, como recipiente de Sukuna, debe aprender a controlar su poder y luchar contra monstruos sobrenaturales para proteger a la humanidad.",
+      "imagen": "https://files.ekmcdn.com/allwallpapers/images/jujutsu-kaisen-jujutsushi-manga-anime-poster-61x91.5cm-large-new-38890-p.jpg"
+    },
+    {
+      "id": "SR015",
+      "titulo": "My Hero Academia",
+      "director_id": "DI029",
+      "genero": ["Animación", "Acción", "Superhéroes", "Aventura"],
+      "num_temporadas": 7,
+      "num_episodios": 138,
+      "fecha_lanzamiento": "2016-04-03",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "plataformas_id": ["PL007"],
+      "sinopsis": "En un mundo donde casi toda la población tiene superpoderes conocidos como 'Quirks', Izuku Midoriya sueña con convertirse en el héroe más grande a pesar de haber nacido sin poderes. Después de ser elegido por All Might, el héroe más poderoso del mundo, para heredar su Quirk 'One For All', Izuku debe enfrentar desafíos épicos mientras se entrena para proteger a la humanidad.",
+      "imagen": "https://hips.hearstapps.com/hmg-prod/images/my-hero-academia-temporada-6-669b9200f3a64.jpg"
+    },
+    {
+      "id": "SR016",
+      "titulo": "Vinland Saga",
+      "director_id": "DI030",
+      "genero": ["Animación", "Aventura", "Acción", "Histórico", "Drama"],
+      "num_temporadas": 2,
+      "num_episodios": 48,
+      "fecha_lanzamiento": "2019-07-07",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "plataformas_id": ["PL007"],
+      "sinopsis": "Ambientada en la Europa medieval, Vinland Saga sigue la historia de Thorfinn, un joven guerrero vikingo que busca vengar la muerte de su padre a manos del astuto Askeladd. A medida que se embarca en un viaje violento y brutal, Thorfinn descubre el verdadero significado de la guerra, el honor y la libertad en un mundo implacable dominado por conquistadores y guerreros.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDA3MGNmZTEtMzFiMy00ZmViLThhNmQtMjQ4ZDc5MDEyN2U1XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "SR017",
+      "titulo": "Neon Genesis Evangelion",
+      "director_id": "DI031",
+      "genero": ["Animación", "Ciencia ficción", "Mecha", "Psicológico", "Drama"],
+      "num_temporadas": 1,
+      "num_episodios": 26,
+      "fecha_lanzamiento": "1995-10-04",
+      "idioma_original": "Japonés",
+      "pais_origen": "Japón",
+      "plataformas_id": ["PL007"],
+      "sinopsis": "En un futuro postapocalíptico, la humanidad enfrenta la amenaza de seres gigantescos conocidos como Ángeles. Para combatir esta amenaza, los pilotos adolescentes son seleccionados para controlar gigantescos mechas llamados Evangelions. Shinji Ikari, un joven introvertido y traumatizado, debe enfrentar sus propios demonios internos mientras lucha por salvar a la humanidad.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZjZjZGI3ZDQtODNmZC00NjE0LTlmYTUtOTljMWI2YjNmMTQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "SR018",
+      "titulo": "Mr. Robot",
+      "director_id": "DI032",
+      "actores_id": ["AC039"],
+      "genero": ["Drama", "Thriller psicológico", "Ciberpunk", "Misterio"],
+      "num_temporadas": 4,
+      "num_episodios": 45,
+      "fecha_lanzamiento": "2015-06-24",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL002"],
+      "sinopsis": "Elliot Alderson, un brillante pero socialmente aislado ingeniero de ciberseguridad con trastorno de ansiedad y depresión, es reclutado por un grupo de hackers radicales conocido como fsociety para derrocar a las corporaciones más poderosas del mundo. A medida que su lucha contra el sistema se intensifica, Elliot se enfrenta a su propia identidad y a secretos profundamente enterrados.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGFmMjYxZTEtMDgxMS00MTVjLThmMmQtYTFhOWI0NWVlODM4XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "SR019",
+      "titulo": "The Bear",
+      "director_id": "DI033",
+      "actores_id": ["AC040"],
+      "genero": ["Drama", "Comedia negra"],
+      "num_temporadas": 2,
+      "num_episodios": 18,
+      "fecha_lanzamiento": "2022-06-23",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL002"],
+      "sinopsis": "Carmen 'Carmy' Berzatto, un joven chef condecorado en la alta cocina, regresa a Chicago para dirigir la deteriorada tienda de sándwiches de su difunto hermano. Mientras lucha por transformar el negocio familiar, enfrenta las duras realidades de la vida en la cocina y los fantasmas del pasado que amenazan con destruir su legado.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYjA2MzUyY2EtMTBmZC00MmNmLWFkNTMtMjlhY2M2ZTMzNzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "SR020",
+      "titulo": "El Jardinero",
+      "director_id": "DI034",
+      "actores_id": ["AC042"],
+      "genero": ["Drama", "Misterio", "Suspenso"],
+      "num_temporadas": 1,
+      "num_episodios": 10,
+      "fecha_lanzamiento": "2025-03-14",
+      "idioma_original": "Español",
+      "pais_origen": "España",
+      "plataformas_id": ["PL002"],
+      "sinopsis": "En un pequeño pueblo español, un misterioso jardinero comienza a trabajar para una familia adinerada. Pronto, secretos oscuros y traiciones salen a la luz, revelando conexiones inquietantes que amenazan con destruir las vidas de todos a su alrededor. Con giros inesperados y tensión constante, El Jardinero es un thriller psicológico que explora los límites de la confianza y la redención.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGI2MDdiMjktYWYxZS00NmIxLWFiZWMtNjE2YmQyNWFhYTRhXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "SR021",
+      "titulo": "You",
+      "director_id": "DI035",
+      "actores_id": ["AC041"],
+      "genero": ["Drama", "Thriller psicológico", "Crimen"],
+      "num_temporadas": 5,
+      "num_episodios": 50,
+      "fecha_lanzamiento": "2018-09-09",
+      "idioma_original": "Inglés",
+      "pais_origen": "Estados Unidos",
+      "plataformas_id": ["PL001", "PL002"],
+      "sinopsis": "Joe Goldberg, un encantador pero obsesivo gerente de librería, se convierte en un peligroso acosador cuando se enamora. Usando redes sociales y tecnología para eliminar cualquier obstáculo que se interponga en su camino, Joe se adentra en una espiral de violencia y manipulación para proteger su versión distorsionada del amor.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTVlYmRhMWQtNmE0Yi00ODM1LWEzMWEtNTQzZGZhODRmZTE0XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "SR022",
+      "titulo": "Black Mirror",
+      "director_id": "DI036",
+      "genero": ["Ciencia ficción", "Distopía", "Suspenso", "Antología"],
+      "num_temporadas": 6,
+      "num_episodios": 27,
+      "fecha_lanzamiento": "2011-12-04",
+      "idioma_original": "Inglés",
+      "pais_origen": "Reino Unido",
+      "plataformas_id": ["PL001", "PL004"],
+      "sinopsis": "Cada episodio de esta serie antológica presenta una historia única que explora las consecuencias inesperadas de la tecnología avanzada en la sociedad moderna. Desde realidades virtuales distópicas hasta inteligencias artificiales inquietantemente humanas, Black Mirror ofrece una mirada provocativa y a menudo perturbadora sobre el futuro digital.",
+      "imagen": "https://es.web.img3.acsta.net/pictures/23/05/24/11/22/4785740.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "US001",
+      "firstName": "Alessandro",
+      "lastName": "Ramos",
+      "userName": "aleramos32",
+      "email": "aleramos32@gmail.com",
+      "password": "secure1234",
+      "platforms": [
+        "Netflix",
+        "Amazon Prime",
+        "Disney+"
+      ],
+      "list": [
+        {
+          "title": "Mickey 17",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Ancora",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Dune",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Adolescencia",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "images": "https://content.imageresizer.com/images/memes/Discord-mod-meme-6.jpg",
+      "apiId": "v1"
+    },
+    {
+      "id": "US002",
+      "firstName": "Juan",
+      "lastName": "Riveros",
+      "userName": "riveros90",
+      "email": "riv893@gmail.com",
+      "password": "secure1234",
+      "platforms": [
+        "Netflix",
+        "Amazon Prime",
+        "Disney+"
+      ],
+      "list": [
+        {
+          "title": "Mickey 17",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Ancora",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Dune",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Adolescencia",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "images": "https://i.pinimg.com/originals/3e/92/15/3e921515c2ae745be4990f09474457c9.jpg",
+      "apiId": "v1"
+    },
+    {
+      "id": "US003",
+      "firstName": "Antuanete",
+      "lastName": "Ortiz",
+      "userName": "anhos",
+      "email": "antugaturra@gmail.com",
+      "password": "secure1234",
+      "platforms": [
+        "Netflix",
+        "Amazon Prime",
+        "Disney+"
+      ],
+      "list": [
+        {
+          "title": "Mickey 17",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Ancora",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Dune",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Adolescencia",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "images": "https://images.squarespace-cdn.com/content/v1/6670add926f2a64cd00fb0e7/d2f9b9c1-ab9c-4fe2-a793-d6a8634ac920/character+chii.png",
+      "apiId": "v1"
+    },
+    {
+      "id": "US004",
+      "firstName": "Loreley",
+      "lastName": "Sarmiento",
+      "userName": "Lore1245",
+      "email": "sarmientoloreley@gmail.com",
+      "password": "secure1234",
+      "platforms": [],
+      "list": [],
+      "images": "https://i.pinimg.com/736x/00/a7/7c/00a77c069db2fe875178d8af03619418.jpg",
+      "apiId": "v1"
+    },
+    {
+      "id": "US005",
+      "firstName": "Mateo",
+      "lastName": "Cabanilas",
+      "userName": "Marckz",
+      "email": "mateocab@gmail.com",
+      "password": "secure1234",
+      "platforms": [],
+      "list": [],
+      "images": "https://ca-times.brightspotcdn.com/dims4/default/92b3b88/2147483647/strip/false/crop/3200x1768+0+0/resize/1486x821!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7c%2F1d%2Fc11c1b0e46cab3e7d14be3663c1e%2Fla-et-mn-tiff-movies-02.jpg",
+      "apiId": "v1"
+    },
+    {
+      "id": "US006",
+      "firstName": "Alvaro",
+      "lastName": "Bejarano",
+      "userName": "Albro",
+      "email": "alvarito@gmail.com",
+      "password": "secure1234",
+      "platforms": [],
+      "list": [],
+      "images": "https://tm.ibxk.com.br/2023/08/08/08142450075192.jpg",
+      "apiId": "v1"
+    },
+    {
+      "id":"US007",
+      "firstName": "HOLA",
+      "lastName": "",
+      "userName": "ANANA",
+      "email": "anana@gmail.com",
+      "password": "louis",
+      "platforms": [],
+      "list": [],
+      "images": "https://upload.wikimedia.org/wikipedia/commons/5/59/Louis_Tomlinson_2019_MTV.png",
+      "apiId": "v1"
+    },
+    {
+      "id": "US008",
+      "firstName": "Renato",
+      "lastName": "Zegarra",
+      "userName": "Rubber",
+      "email": "rubberren@gmail.com",
+      "password": "secure1234",
+      "platforms": [],
+      "list": [],
+      "images": "https://i.pinimg.com/236x/09/02/86/090286be7ffa5bc199ad0bb34af40d68.jpg",
+      "apiId": "v1"
+    },
+    {
+      "id": "US009",
+      "firstName": "Italo",
+      "lastName": "Verona",
+      "userName": "okami",
+      "email": "okami@gmail.com",
+      "password": "secure1234",
+      "platforms": [],
+      "list": [],
+      "images": "https://i.pinimg.com/236x/09/02/86/090286be7ffa5bc199ad0bb34af40d68.jpg",
+      "apiId": "v1"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "RV001",
+      "userId": "US001",
+      "contenidoId": "MV004",
+      "rating": 5,
+      "text": "Es una obra maestra, no tengo palabras para describirla.",
+      "createdAt": "2025-05-15T14:34:00Z"
+    },
+    {
+      "id": "RV002",
+      "userId": "US003",
+      "contenidoId": "MV002",
+      "rating": 3,
+      "text": "Es buena, pero no la volvería a ver.",
+      "createdAt": "2025-05-14T11:20:00Z"
+    },
+    {
+      "id": "RV003",
+      "userId": "US002",
+      "contenidoId": "MV008",
+      "rating": 4,
+      "text": "Perfecta para una maratón, no te arrepentirás.",
+      "createdAt": "2025-05-13T09:45:00Z"
+    },
+    {
+      "id": "RV004",
+      "userId": "US005",
+      "contenidoId": "MV001",
+      "rating": 5,
+      "text": "Un clásico que nunca pasa de moda.",
+      "createdAt": "2025-05-12T18:00:00Z"
+    },
+    {
+      "id": "RV005",
+      "userId": "US004",
+      "contenidoId": "MV006",
+      "rating": 2,
+      "text": "Demasiado predecible, no la recomendaría.",
+      "createdAt": "2025-05-11T15:30:00Z"
+    },
+    {
+      "id": "RV006",
+      "userId": "US002",
+      "contenidoId": "MV010",
+      "rating": 5,
+      "text": "El final es sorprendente, definitivamente la recomendaría.",
+      "createdAt": "2025-05-10T17:20:00Z"
+    },
+    {
+      "id": "RV007",
+      "userId": "US006",
+      "contenidoId": "MV007",
+      "rating": 4,
+      "text": "Me encantó la trama y los personajes, muy recomendable.",
+      "createdAt": "2025-05-09T21:15:00Z"
+    },
+    {
+      "id": "RV008",
+      "userId": "US003",
+      "contenidoId": "MV003",
+      "rating": 3,
+      "text": "Un poco lenta al inicio, pero luego mejora bastante.",
+      "createdAt": "2025-05-08T19:50:00Z"
+    },
+    {
+      "id": "RV009",
+      "userId": "US001",
+      "contenidoId": "MV009",
+      "rating": 4,
+      "text": "Muy entretenida, me mantuvo al borde del asiento todo el tiempo.",
+      "createdAt": "2025-05-07T12:40:00Z"
+    },
+    {
+      "id": "RV010",
+      "userId": "US005",
+      "contenidoId": "MV005",
+      "rating": 2,
+      "text": "No cumplió mis expectativas, esperaba más.",
+      "createdAt": "2025-05-06T14:30:00Z"
+    },
+    {
+      "id": "RV011",
+      "userId": "US006",
+      "contenidoId": "MV002",
+      "rating": 5,
+      "text": "Los efectos especiales son impresionantes, la historia es intrigante.",
+      "createdAt": "2025-05-05T11:00:00Z"
+    },
+    {
+      "id": "RV012",
+      "userId": "US001",
+      "contenidoId": "MV001",
+      "rating": 4,
+      "text": "Me hizo reír y llorar, muy emocional.",
+      "createdAt": "2025-05-04T13:00:00Z"
+    },
+    {
+      "id": "RV013",
+      "userId": "US004",
+      "contenidoId": "MV003",
+      "rating": 3,
+      "text": "Me gustó, pero no tanto como esperaba.",
+      "createdAt": "2025-05-03T09:00:00Z"
+    },
+    {
+      "id": "RV014",
+      "userId": "US003",
+      "contenidoId": "MV009",
+      "rating": 5,
+      "text": "Excelente adaptación del libro, muy fiel a la historia original.",
+      "createdAt": "2025-05-02T15:00:00Z"
+    },
+    {
+      "id": "RV015",
+      "userId": "US002",
+      "contenidoId": "MV005",
+      "rating": 4,
+      "text": "Los actores hicieron un trabajo increíble, muy realista.",
+      "createdAt": "2025-05-01T14:00:00Z"
+    },
+    {
+      "id": "RV016",
+      "userId": "US006",
+      "contenidoId": "MV008",
+      "rating": 4,
+      "text": "Definitivamente una de mis películas favoritas.",
+      "createdAt": "2025-04-30T20:00:00Z"
+    },
+    {
+      "id": "RV017",
+      "userId": "US005",
+      "contenidoId": "MV004",
+      "rating": 3,
+      "text": "Tiene sus momentos, pero en general no me convenció.",
+      "createdAt": "2025-04-29T16:00:00Z"
+    },
+    {
+      "id": "RV018",
+      "userId": "US004",
+      "contenidoId": "MV007",
+      "rating": 2,
+      "text": "Demasiado corta, quería que durara más.",
+      "createdAt": "2025-04-28T10:00:00Z"
+    },
+    {
+      "id": "RV019",
+      "userId": "US002",
+      "contenidoId": "MV006",
+      "rating": 5,
+      "text": "Una historia inspiradora, te deja una buena enseñanza.",
+      "createdAt": "2025-04-27T22:00:00Z"
+    },
+    {
+      "id": "RV020",
+      "userId": "US001",
+      "contenidoId": "MV010",
+      "rating": 5,
+      "text": "Una película que te hace reflexionar, muy profunda.",
+      "createdAt": "2025-04-26T23:00:00Z"
+    }
+  ]
+}
