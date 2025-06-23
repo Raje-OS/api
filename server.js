@@ -29,6 +29,18 @@ app.get(`/${key}`, (req, res) => {
 });
 
 
+  // GET por múltiples IDs
+  app.get(`/${key}/varios`, (req, res) => {
+    const ids = req.query.id?.split(',') || [];
+    if (ids.length === 0) {
+      return res.status(400).json({ error: 'Debe proporcionar al menos un ID' });
+    }
+
+    const items = db[key].filter(item => ids.includes(String(item.id)));
+    res.json(items);
+  });
+
+  
   // GET BY ID
   app.get(`/${key}/:id`, (req, res) => {
    const item = db[key].find(i => String(i.id) === req.params.id);
