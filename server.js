@@ -1,4 +1,4 @@
-const express = require('express');
+  const express = require('express');
 const fs = require('fs');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -14,14 +14,27 @@ let db = JSON.parse(fs.readFileSync('db.json', 'utf8'));
 // Generar rutas CRUD para cada colección del db.json
 Object.keys(db).forEach((key) => {
   // GET ALL
-  app.get(`/${key}`, (req, res) => res.json(db[key]));
+// GET ALL o FILTRADO por query
+app.get(`/${key}`, (req, res) => {
+  const queryKeys = Object.keys(req.query);
+  if (queryKeys.length === 0) {
+    return res.json(db[key]); // sin filtros
+  }
+
+  const filtered = db[key].filter(item =>
+    queryKeys.every(q => String(item[q]).toLowerCase() === String(req.query[q]).toLowerCase())
+  );
+
+  res.json(filtered);
+});
+
 
   // GET BY ID
   app.get(`/${key}/:id`, (req, res) => {
-    const item = db[key].find(i => i.id == req.params.id);
+   const item = db[key].find(i => String(i.id) === req.params.id);
     item ? res.json(item) : res.sendStatus(404);
   });
-
+  
   // POST
   app.post(`/${key}`, (req, res) => {
     const nuevo = req.body;
